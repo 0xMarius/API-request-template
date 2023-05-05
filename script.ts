@@ -3,8 +3,7 @@ import * as fs from "fs";
 
 // Set the API URL and token
 const apiUrl = "https://sandbox-esiunta.dpd.lt/api/v1";
-const apiToken =
-  "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjdXN0b21lcl9pZCI6MzU2LCJhZG1pbl9pZCI6bnVsbCwic2lnbmF0dXJlX2lkIjoiNzNlNjg3MzYtZDFmMi00ZDdjLWI1YTAtMDIzNzgzZjJmZTJiIiwic2lnbmF0dXJlX25hbWUiOiJhcGl0b2tlbiIsImlzcyI6ImFtYmVyLWx0IiwiZXhwIjoxMDE2ODMyMTExNDN9.Aadlm52iHi3-AYNtO_akoE46OiwxhJn3I4-1vvSSxRY";
+const apiToken = "insert token here";
 
 // Set the request headers to include the token
 const headers = {
@@ -33,7 +32,7 @@ let label = JSON.parse(labelData);
 //     // Handle any errors here
 //   });
 
-// Make the API POST request using axios
+// Make the DPD Pickup shipment creation API POST request using axios
 axios
   .post(`${apiUrl}/shipments`, payload, { headers })
   .then((response) => {
@@ -54,6 +53,7 @@ axios
     }
   });
 
+// Make the PDF A4 label creation request
 axios
   .post(`${apiUrl}/shipments/labels`, label, { headers })
   .then((response) => {
