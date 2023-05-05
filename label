@@ -1,0 +1,11 @@
+{
+  "shipmentIds": [
+    "15731b0c-4118-11eb-8bd3-005056bbea5f"
+  ],
+  "parcelNumbers": [],
+  "offsetPosition": 0,
+  "downloadLabel": true,
+  "emailLabel": false,
+  "labelFormat": "application/pdf",
+  "paperSize": "A4"
+}

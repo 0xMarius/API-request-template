@@ -1,0 +1,59 @@
+[
+  {
+    "senderAddress": {
+      "name": "Marius M.",
+      "email": "lilagib172@in2reach.com",
+      "phone": "+37065123456",
+      "street": "Priegliaus g. 1",
+      "streetNo": "8a",
+      "flatNo": null,
+      "city": "Vilnius",
+      "postalCode": "06269",
+      "country": "LT"
+    },
+    "receiverAddress": {
+      "name": "Test gavėjas",
+      "phone": "+37065123456",
+      "email": "lilagib172@in2reach.com",
+      "street": "Uriekstes iela",
+      "streetNo": "8a",
+      "city": "Rīga",
+      "postalCode": "1005",
+      "country": "LV",
+      "pudoId": "LV90001"
+    },
+    "service": {
+      "serviceAlias": "DPD PICKUP"
+    },
+    "parcels": [
+      {
+        "weight": 10,
+        "parcelNumber": "05757894051405",
+        "mpsReferences": [
+          "Parcel reference 1"
+        ]
+      }
+    ],
+    "shipmentReferences": [
+      "Shipment reference 1"
+    ],
+    "pickup": {
+      "pickupDate": "2023-05-08",
+      "pickupTimeFrom": "12:00",
+      "pickupTimeTo": "17:00"
+    },
+    "labelOptions": {
+      "shipmentIds": [
+        "15731b0c-4118-11eb-8bd3-005056bbea5f"
+      ],
+      "parcelNumbers": [
+        "05757894762505"
+      ],
+      "offsetPosition": null,
+      "downloadLabel": true,
+      "emailLabel": true,
+      "labelFormat": null,
+      "paperSize": null
+    }
+  }
+]
